@@ -27,14 +27,17 @@ header h1 {
 }
 
 .accordion {
+    display: flex;
+    justify-content: center;
     background: #333;
-    width: 100%;
+    width: 80%;
     min-width: 800px;
     display: block;
     list-style-type: none;
     overflow: hidden;
     height: 200px;
     font-size: 0;
+    
 }
 
 .tab {
@@ -144,7 +147,8 @@ header h1 {
 }
 
 .instagram a:after {
-    background-color: #f00943;
+background: linear-gradient(45deg, #C13584, #E1306C, #FD1D1D);
+
 }
 
 .github a:before,
@@ -182,12 +186,13 @@ header h1 {
         width: 100%;
     }
 }
-@media (max-width)
-{
-    .container{
-        width:95%;
+
+@media (max-width) {
+    .container {
+        width: 95%;
     }
-    .accordion{
+
+    .accordion {
         width: 100%;
         min-width: 350px;
     }
